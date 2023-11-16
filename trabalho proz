@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exemplo de utilização de metadados">
+    <meta name="keywords" content="HTML, Metadados, Exemplo">
+    <meta name="author" content="Seu Nome">
+    <title>Exemplo Completo</title>
+</head>
+<body>
+
+    <header>
+        <h1>Título do Site</h1>
+        <p>Descrição do site</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Artigo 1</h2>
+            <p>Conteúdo do artigo 1...</p>
+        </article>
+
+        <article>
+            <h2>Artigo 2</h2>
+            <p>Conteúdo do artigo 2...</p>
+        </article>
+    </section>
+
+    <aside>
+        <h2>Barra lateral</h2>
+        <p>Conteúdo da barra lateral...</p>
+    </aside>
+
+    <footer>
+        <p>Rodapé do site</p>
+    </footer>
+
+    <h1>Título Principal</h1>
+    <p>Este é um exemplo de parágrafo em HTML. <span style="color: blue;">Este texto está em azul.</span></p>
+
+    <h2>Subtítulo</h2>
+    <p>Outro parágrafo aqui.</p>
+
+    <h1>Minha Imagem</h1>
+    <img src="caminho/da/imagem.jpg" alt="Descrição da imagem">
+
+    <h1>Formulário de Contato</h1>
+    <form action="/processar_formulario" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
